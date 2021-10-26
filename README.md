@@ -12,7 +12,7 @@ A simple non UI fullscreen media player based on VLCs Python bindings.
 ---
 
 ### Play media:
-There is two methods to play media, either via html or directory passing argument to the executable. Control the player using **hotkeys** and enjoy the content without any UI.
+There is two methods to play media, either via html or directory passing argument to the executable. Control the player using [hotkeys](#controlling-player)
 
 #### From a webpage:
 _Disclamer: This only works when the URI protocol has been installed_
