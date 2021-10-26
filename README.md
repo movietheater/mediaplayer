@@ -35,7 +35,7 @@ These are the supported hotkeys the player listen for while playing media or loa
 | MEDIA STOP | Stops the media and exits | 
 | MEDIA NEXT TRACK | Forward 5 minutes | 
 | MEDIA PREV TRACK | Backward 5 minutes | 
-| MEDIA PLAY PAUSE | Pause the media | 
+| MEDIA PLAY PAUSE | Play or Pause the media |
 
 ### Installation:
 * Install VLC Media Player from their website (https://www.videolan.org/vlc)
