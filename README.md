@@ -9,8 +9,6 @@ A simple non UI fullscreen media player based on VLCs Python bindings.
 - [x] Adjusts audio to **english** by default if bundled with the media
 - [x] Adjusts subtitle to **english** by default if bundled with the media
 
----
-
 ## Play media:
 There is two methods to play media, either via html or directory passing argument to the executable. Control the player using [hotkeys](#controlling-player)
 
