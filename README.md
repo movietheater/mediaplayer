@@ -1,7 +1,7 @@
 # MediaPlayer
 ![python3_support](https://img.shields.io/badge/Python-3-blue.svg "Python 3")
 
-A simple non UI fullscreen media player based on VLCs Python bindings for windows.
+A simple non UI fullscreen media player based on VLCs Python bindings for windows with hotkey support.
 
 ## Features:
 - [x] Hotkey support for controlling the player
