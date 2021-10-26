@@ -3,15 +3,15 @@
 
 A simple non UI fullscreen media player based on VLCs Python bindings.
 
-### Features:
-- [x] Hotkey support for controlling the player, see documented hotkeys here: [controlling player](#controlling-player)
-- [x] Remembers where it left off, only supports the latest media played
-- [x] Automatically adjusts audio to english by default if bundled with the media
-- [x] Automatically adjusts subtitle to english by default if bundled with the media
+## Features:
+- [x] Hotkey support for controlling the player
+- [x] Remembers where it left off _(Last played media only)_
+- [x] Adjusts audio to **english** by default if bundled with the media
+- [x] Adjusts subtitle to **english** by default if bundled with the media
 
 ---
 
-### Play media:
+## Play media:
 There is two methods to play media, either via html or directory passing argument to the executable. Control the player using [hotkeys](#controlling-player)
 
 #### From a webpage:
@@ -24,7 +24,7 @@ _Disclamer: This only works when the URI protocol has been installed_
 ovlc.exe "ovlc:////network-share-01/c/Movie.Example.2019.2160p.hdr10plus.bluray.x265.hevc.mkv"
 ```
 
-#### Controlling player:
+## Controlling player:
 These are the supported hotkeys the player listen for while playing media or loading up.
 | Hotkey         | Description   |
 |----------------|---------------|
@@ -37,7 +37,7 @@ These are the supported hotkeys the player listen for while playing media or loa
 | MEDIA PREV TRACK | Backward 5 minutes | 
 | MEDIA PLAY PAUSE | Play or Pause the media |
 
-### Installation:
+## Installation:
 * Install VLC Media Player from their website (https://www.videolan.org/vlc)
 * Build the executable using the `build.py` file
 * Copy the `ovlc.exe` executable from **dist** folder to your VLC installation directory
