@@ -1,7 +1,7 @@
 # MediaPlayer
 ![python3_support](https://img.shields.io/badge/Python-3-blue.svg "Python 3")
 
-A simple non UI fullscreen media player based on VLCs Python bindings.
+A simple non UI fullscreen media player based on VLCs Python bindings for windows.
 
 ## Features:
 - [x] Hotkey support for controlling the player
@@ -10,7 +10,7 @@ A simple non UI fullscreen media player based on VLCs Python bindings.
 - [x] Adjusts subtitle to **english** by default if bundled with the media
 
 ## Play media:
-There is two methods to play media, either via html or directory passing argument to the executable. Control the player using [hotkeys](#controlling-player)
+There is two methods to play media, either via html or directory passing argument to the executable.
 
 #### From a webpage:
 _Disclamer: This only works when the URI protocol has been installed_
