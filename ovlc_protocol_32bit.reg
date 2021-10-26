@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\ovlc]
+@="URL:VLC Protocol"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\ovlc\DefaultIcon]
+@="C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe,0"
+
+[HKEY_CLASSES_ROOT\ovlc\shell]
+
+[HKEY_CLASSES_ROOT\ovlc\shell\open]
+
+[HKEY_CLASSES_ROOT\ovlc\shell\open\command]
+@="\"C:\\Program Files (x86)\\VideoLAN\\VLC\\ovlc.exe\" \"%1\""
