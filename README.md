@@ -38,6 +38,6 @@ These are the supported hotkeys the player listen for while playing media or loa
 ## Installation:
 * Install VLC Media Player from their website (https://www.videolan.org/vlc)
 * Build the executable using the `build.py` file
-* Copy the `ovlc.exe` executable from **dist** folder to your VLC installation directory
+* Copy the `ovlc.exe` executable from **dist** folder to your VLC installation directory, example path: `C:\Program Files\VideoLAN\VLC`
 * Install the URI protocol by running `ovlc_protocol_64bit.reg` or `ovlc_protocol_32bit.reg` depending on VLCs architecture
 * Done!
